@@ -20,8 +20,22 @@ Também é possível configurar o BD para que todos possam testar esse programa 
 Cada tarefa consta com um nome, uma data incial e final e uma descrição.
 
 
-
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/b4dcc34c-2bde-4428-9c9f-b322d0b6bfdb)
+
+
+Os usuários possuem no cadastro um nome, um username para apelido e email.
+No menu inicial se tem acesso a todas as informações e caminhos de acesso, tanto de configuração quanto de gerenciamento de tarefas.
+Nele também se encontra uma mensagem de boas vindas junto ao seu nome e seu apelido.
+
+![image](https://github.com/brunohoske/TaskManager/assets/124783417/4f073849-35bb-4efb-8f35-c333d5126d64)
+
+
+
+
+Tela de configurações:
+
+![image](https://github.com/brunohoske/TaskManager/assets/124783417/9906b35c-4e10-4e75-8cb4-14611435cff1)
+
 
 
 
@@ -75,6 +89,22 @@ Each task has a name, a start date, an end date, and a description.
 
 
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/b4dcc34c-2bde-4428-9c9f-b322d0b6bfdb)
+
+
+Users have in their registration, a name, a username as a nickname, and an email.
+
+In the main menu, there is access to all the information and pathways, both for configuration and task management.
+Also, there's a welcome message along with your name and nickname.
+
+
+![image](https://github.com/brunohoske/TaskManager/assets/124783417/4f073849-35bb-4efb-8f35-c333d5126d64)
+
+
+Configuration Screen:
+
+![image](https://github.com/brunohoske/TaskManager/assets/124783417/9906b35c-4e10-4e75-8cb4-14611435cff1)
+
+
 
 Here's the CREATE of the database and tables.
 
