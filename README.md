@@ -1,19 +1,25 @@
 # Task-Manager
 
 PT-BR
--------
+----------------------------------------------------------------------------------------------------------------------------
 Programa que te permite criar tarefas e gerenciar as mesmas.
 
 Esse programa foi criado com principal objetivo de treinar os fundamentos do POO, CRUD e conexão com MySQL.
 Programa possui tela de Login, permitindo o cadastro de usuário e login do mesmo, podendo também salvar o usuário para manter logado. As tarefas são separdas por cada usuário.
+
+
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/17ddecef-55bf-41ce-a792-ee39ac7b659d)
 
 Também é possível configurar o BD para que todos possam testar esse programa colocando o usuário e senha do Banco de dados em "BD config". Por padrão é root sem senha.
+
+
 
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/73c56ebe-6999-4c34-9a0c-41edb8bec26d)
 
 
 Cada tarefa consta com um nome, uma data incial e final e uma descrição.
+
+
 
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/b4dcc34c-2bde-4428-9c9f-b322d0b6bfdb)
 
@@ -22,9 +28,11 @@ Cada tarefa consta com um nome, uma data incial e final e uma descrição.
 Segue o CREATE da database e das tables:
 
 DATABASE:
+
 CREATE DATABASE IF NOT EXISTS `taskmanager` DEFAULT CHARACTER SET utf8 ;
 
 TABLES:
+
 CREATE TABLE IF NOT EXISTS `taskmanager`.`Usuarios` (
   `ID` INT NOT NULL AUTO_INCREMENT,
   `Username` VARCHAR(45) NOT NULL,
@@ -46,7 +54,7 @@ CREATE TABLE IF NOT EXISTS `taskmanager`.`Tarefas` (
 
 
 EN-US
--------
+----------------------------------------------------------------------------------------------------------------------------
 Program that allows you to create tasks and manage them.
 
 This program was created with the main goal of practicing the fundamentals of OOP, CRUD, and connecting with MySQL.
