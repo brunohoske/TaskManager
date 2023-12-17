@@ -71,7 +71,7 @@ EN-US
 ----------------------------------------------------------------------------------------------------------------------------
 Program that allows you to create tasks and manage them.
 
-This program was created with the main goal of practicing the fundamentals of OOP, CRUD, and connecting with MySQL.
+This program was created with the main goal of practicing the fundamentals of OOP, CRUD, and connection with MySQL.
 
 The program features a login screen allowing user registration and login. It also provides an option to save the user for auto-login. Tasks are separated for each user.
 
