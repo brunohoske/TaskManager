@@ -78,7 +78,7 @@ The program features a login screen allowing user registration and login. It als
 
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/17ddecef-55bf-41ce-a792-ee39ac7b659d)
 
-Additionally, it's possible to configure the database so everyone can test this program by entering the database username and password in the "DB Config" section. By default, it uses the root user with no password.
+Additionally, it's possible to configure the database so everyone can test this program by entering the database username and password in the "DB Config". By default, it uses the root user with no password.
 
 
 
