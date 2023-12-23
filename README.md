@@ -119,6 +119,7 @@ Configuration Screen:
 
 
 
+If you want to generate the tables manually, you can use the CREATE available. Follow the CREATE of the database and tables:
 Here's the CREATE of the database and tables.
 
 DATABASE:
