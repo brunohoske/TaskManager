@@ -13,13 +13,16 @@ Programa possui tela de Login, permitindo o cadastro de usuário e login do mesm
 
 Também é possível configurar o BD para que todos possam testar esse programa colocando o usuário e senha do Banco de dados em "BD Config". Por padrão é root sem senha. (Lembre-se de configurar a senha e usúario com um acesso para create,update, delete e select)
 
+![image](https://github.com/brunohoske/TaskManager/assets/124783417/73c56ebe-6999-4c34-9a0c-41edb8bec26d)
+
+
+
 
 Após a configuração do BD, na sua primeira inicialização, você pode gerar o banco de dados a partir do botão "Gerar BD". (Confira se o usuario e senha estão realmente corretos em "BD Config")
 
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/0d1b55e0-a06b-43af-b9af-856c11eb33d7)
 
 
-![image](https://github.com/brunohoske/TaskManager/assets/124783417/73c56ebe-6999-4c34-9a0c-41edb8bec26d)
 
 
 Cada tarefa consta com um nome, uma data incial e final e uma descrição.
