@@ -8,10 +8,15 @@ Esse programa foi criado com principal objetivo de treinar os fundamentos do POO
 Programa possui tela de Login, permitindo o cadastro de usuário e login do mesmo, podendo também salvar o usuário para manter logado. As tarefas são separdas por cada usuário.
 
 
-![image](https://github.com/brunohoske/TaskManager/assets/124783417/17ddecef-55bf-41ce-a792-ee39ac7b659d)
+![image](https://github.com/brunohoske/TaskManager/assets/124783417/d3b55fa4-c316-41d4-971c-3ba515c674fc)
 
-Também é possível configurar o BD para que todos possam testar esse programa colocando o usuário e senha do Banco de dados em "BD config". Por padrão é root sem senha.
 
+Também é possível configurar o BD para que todos possam testar esse programa colocando o usuário e senha do Banco de dados em "BD Config". Por padrão é root sem senha. (Lembre-se de configurar a senha e usúario com um acesso para create,update, delete e select)
+
+
+Após a configuração do BD, na sua primeira inicialização, você pode gerar o banco de dados a partir do botão "Gerar BD". (Confira se o usuario e senha estão realmente corretos em "BD Config")
+
+![image](https://github.com/brunohoske/TaskManager/assets/124783417/0d1b55e0-a06b-43af-b9af-856c11eb33d7)
 
 
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/73c56ebe-6999-4c34-9a0c-41edb8bec26d)
@@ -38,7 +43,7 @@ Tela de configurações:
 
 
 
-
+Caso você queira gerar as tabelas manualmente você pode utilizar os creates disponibilizados.
 Segue o CREATE da database e das tables:
 
 DATABASE:
@@ -76,18 +81,23 @@ This program was created with the main goal of practicing the fundamentals of OO
 The program features a login screen allowing user registration and login. It also provides an option to save the user for auto-login. Tasks are separated for each user.
 
 
-![image](https://github.com/brunohoske/TaskManager/assets/124783417/17ddecef-55bf-41ce-a792-ee39ac7b659d)
-
-Additionally, it's possible to configure the database so everyone can test this program by entering the database username and password in the "DB Config". By default, it uses the root user with no password.
+![image](https://github.com/brunohoske/TaskManager/assets/124783417/a8ecb80a-0e62-466c-9e62-0a6d9b7f0624)
 
 
+Additionally, it's possible to configure the database so everyone can test this program by entering the database username and password in the "BD Config". By default, it uses the root user with no password. (Remember to configure the password and user with access to create, update, delete and select)
 
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/73c56ebe-6999-4c34-9a0c-41edb8bec26d)
 
+After configuring the DB, on your first startup, you can generate the database using the "Gerar BD" button. (Check if the username and password are really correct in "BD Config")
+
+
+![image](https://github.com/brunohoske/TaskManager/assets/124783417/0b5c4cc1-8fe9-4b4a-b0d9-f7ab18c45796)
+
+
+
+
 
 Each task has a name, a start date, an end date, and a description.
-
-
 ![image](https://github.com/brunohoske/TaskManager/assets/124783417/b4dcc34c-2bde-4428-9c9f-b322d0b6bfdb)
 
 
