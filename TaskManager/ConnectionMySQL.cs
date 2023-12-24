@@ -20,8 +20,9 @@ namespace TaskManager
         static DataTable dt;
         static MySqlDataAdapter da;
 
-        static string user = "";
-        static string pwd = "";
+        static string user = Utilitarios.GetLine(@"bd.txt", 1);
+        static string pwd = Utilitarios.GetLine(@"bd.txt", 2);
+
 
         static string conn = $"server=localhost;user={user};pwd={pwd};database=taskmanager; Allow User Variables=True";
 
@@ -36,7 +37,8 @@ namespace TaskManager
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                MessageBox.Show("Conexão com o banco não foi aberta. Confira as configurações de banco");
+
                 return false;
             }
         }
@@ -345,6 +347,34 @@ namespace TaskManager
         public static string GetPwdBd()
         {
             return pwd;
+        }
+
+        public static bool GerarBancoDeDados()
+        {
+            try
+            {
+                conn = $"server=localhost;user={Utilitarios.GetLine(@"bd.txt", 1)};pwd={Utilitarios.GetLine(@"bd.txt", 2)}; Allow User Variables=True";
+                if (OpenConnection())
+                {
+                    ExecutarComando("CREATE SCHEMA IF NOT EXISTS `taskmanager` DEFAULT CHARACTER SET utf8 ;");
+                    ExecutarComando("CREATE TABLE IF NOT EXISTS `taskmanager`.`Usuarios` (`ID` INT NOT NULL AUTO_INCREMENT,`Username` VARCHAR(45) NOT NULL,  `Nome` VARCHAR(80) NOT NULL, `Email` VARCHAR(80) NOT NULL, `Senha` VARCHAR(45) NOT NULL,  PRIMARY KEY (`ID`));");
+                    ExecutarComando("CREATE TABLE IF NOT EXISTS `taskmanager`.`Tarefas` (  `ID` INT NOT NULL AUTO_INCREMENT,  `NomeTarefa` VARCHAR(20) NOT NULL,  `DataInicio` DATETIME NOT NULL, `DataFim` DATETIME NOT NULL,  `Descricao` VARCHAR(300) NOT NULL,  `UserID` INT NOT NULL,  PRIMARY KEY (`ID`), INDEX `fk_Tarefas_Usuarios_idx` (`UserID` ASC) );");
+                   
+                    conn = $"server=localhost;user={Utilitarios.GetLine(@"bd.txt", 1)};pwd={Utilitarios.GetLine(@"bd.txt", 2)}; database=taskmanager; Allow User Variables=True";
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+
+              
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                return false;
+            }
         }
 
     }

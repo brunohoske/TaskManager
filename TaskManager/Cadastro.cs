@@ -33,12 +33,6 @@ namespace TaskManager
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-
-            Connection.ExecutarComando("CREATE SCHEMA IF NOT EXISTS `taskmanager` DEFAULT CHARACTER SET utf8 ;");
-            Connection.ExecutarComando("CREATE TABLE IF NOT EXISTS `taskmanager`.`Usuarios` (`ID` INT NOT NULL AUTO_INCREMENT,`Username` VARCHAR(45) NOT NULL,  `Nome` VARCHAR(80) NOT NULL, `Email` VARCHAR(80) NOT NULL, `Senha` VARCHAR(45) NOT NULL,  PRIMARY KEY (`ID`));");
-            Connection.ExecutarComando("CREATE TABLE IF NOT EXISTS `taskmanager`.`Tarefas` (  `ID` INT NOT NULL AUTO_INCREMENT,  `NomeTarefa` VARCHAR(20) NOT NULL,  `DataInicio` DATETIME NOT NULL, `DataFim` DATETIME NOT NULL,  `Descricao` VARCHAR(300) NOT NULL,  `UserID` INT NOT NULL,  PRIMARY KEY (`ID`), INDEX `fk_Tarefas_Usuarios_idx` (`UserID` ASC) );");
-
-
             if (Connection.ValidaUsuario(txtUser.Text) == 0 && txtSenha.Text == txtSenhaConfirm.Text && ValidaCampos())
             {
                 User user = new User(txtNome.Text, txtUser.Text, txtSenha.Text, txtEmail.Text);
@@ -68,5 +62,6 @@ namespace TaskManager
             login.Show();
             this.Close();
         }
+
     }
 }

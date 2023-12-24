@@ -54,6 +54,37 @@ namespace TaskManager
             }
         }
 
+        public static string GetLine(string filePath, int line)
+        {
+            try
+            {
+
+                string text = "";
+                StreamReader sr = new StreamReader(filePath);
+
+                for(int i = 0; i <= line; i++)
+                {
+                    if(i == line-1)
+                    {
+                        text = sr.ReadLine();
+                    }
+                    else
+                    {
+                        sr.ReadLine();
+                    }
+                }
+                sr.Close();
+
+                return text;
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
         public static void CreateTextFile(string name)
         {
             if (!File.Exists($"{name}.txt"))

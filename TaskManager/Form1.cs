@@ -20,6 +20,8 @@ namespace TaskManager
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+
             Utilitarios.CreateTextFile("file");
             Utilitarios.CreateTextFile("bd","root");
            
@@ -47,11 +49,6 @@ namespace TaskManager
         }
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            Connection.ExecutarComando("CREATE SCHEMA IF NOT EXISTS `taskmanager` DEFAULT CHARACTER SET utf8 ;");
-            Connection.ExecutarComando("CREATE TABLE IF NOT EXISTS `taskmanager`.`Usuarios` (`ID` INT NOT NULL AUTO_INCREMENT,`Username` VARCHAR(45) NOT NULL,  `Nome` VARCHAR(80) NOT NULL, `Email` VARCHAR(80) NOT NULL, `Senha` VARCHAR(45) NOT NULL,  PRIMARY KEY (`ID`));");
-            Connection.ExecutarComando("CREATE TABLE IF NOT EXISTS `taskmanager`.`Tarefas` (  `ID` INT NOT NULL AUTO_INCREMENT,  `NomeTarefa` VARCHAR(20) NOT NULL,  `DataInicio` DATETIME NOT NULL, `DataFim` DATETIME NOT NULL,  `Descricao` VARCHAR(300) NOT NULL,  `UserID` INT NOT NULL,  PRIMARY KEY (`ID`), INDEX `fk_Tarefas_Usuarios_idx` (`UserID` ASC) );");
-
-
             if (Connection.ValidaUsuario(txtUser.Text) == 1 && ValidaCampos())
             {
                 string userID = Connection.GetIdUser(txtUser.Text);
@@ -91,5 +88,16 @@ namespace TaskManager
             form.Show();
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            if (Connection.GerarBancoDeDados())
+            {
+                MessageBox.Show("Banco de dados Gerado com Sucesso.");
+            }
+
+        }
+            
     }
 }
