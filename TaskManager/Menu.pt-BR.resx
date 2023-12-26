@@ -140,18 +140,30 @@
   <data name="tpConfig.Text" xml:space="preserve">
     <value>Configurações</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblUpdate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 3</value>
+  </data>
+  <data name="lblUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="lblUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblUpdate.Text" xml:space="preserve">
+    <value>Atualizar tarefas</value>
+  </data>
   <data name="btnNewTarefa.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnNewTarefa.Location" type="System.Drawing.Point, System.Drawing">
-    <value>619, 57</value>
-  </data>
   <data name="btnNewTarefa.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 23</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnNewTarefa.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
   </data>
   <data name="btnNewTarefa.Text" xml:space="preserve">
     <value>Nova Tarefa</value>

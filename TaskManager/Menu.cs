@@ -151,5 +151,11 @@ namespace TaskManager
             }
            
         }
+
+        private void lblUpdate_Click(object sender, EventArgs e)
+        {
+            DataTable dt = Connection.ExibirTarefas(int.Parse(User.Id));
+            dtgTarefas.DataSource = dt.AsDataView();
+        }
     }
 }

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="&gt;&gt;btnNewTarefa.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnAlterarSenha.TabIndex" type="System.Int32, mscorlib">
@@ -134,8 +134,11 @@
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="lblUsername.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 78</value>
+  <data name="lblUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
   </data>
   <data name="&gt;&gt;tpTarefas.Name" xml:space="preserve">
     <value>tpTarefas</value>
@@ -161,6 +164,12 @@
   <data name="btnMinhasTarefas.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 23</value>
   </data>
+  <data name="&gt;&gt;tabControlMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>624, 3</value>
+  </data>
   <data name="&gt;&gt;btnMinhasTarefas.Parent" xml:space="preserve">
     <value>tpMenu</value>
   </data>
@@ -169,6 +178,12 @@
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Task Manager</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnMinhasTarefas.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="txtConfirmarNovaSenha.Location" type="System.Drawing.Point, System.Drawing">
     <value>357, 219</value>
@@ -195,6 +210,9 @@
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;txtSenha.Name" xml:space="preserve">
     <value>txtSenha</value>
   </data>
@@ -210,6 +228,9 @@
   <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 42</value>
   </data>
+  <data name="&gt;&gt;txtSenha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;tpTarefas.Parent" xml:space="preserve">
     <value>tabControlMain</value>
   </data>
@@ -218,6 +239,9 @@
   </data>
   <data name="&gt;&gt;label11.Parent" xml:space="preserve">
     <value>tpTarefas</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;label10.Name" xml:space="preserve">
     <value>label10</value>
@@ -243,8 +267,11 @@
   <data name="&gt;&gt;btnConfig.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="&gt;&gt;txtUsername.Name" xml:space="preserve">
+    <value>txtUsername</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;lblWelcome.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -261,16 +288,13 @@
   <data name="&gt;&gt;label7.Name" xml:space="preserve">
     <value>label7</value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>Suas tarefas:</value>
-  </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="btnConfig.Text" xml:space="preserve">
-    <value>Configurações de Usuário</value>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tpConfig</value>
   </data>
-  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;button2.Type" xml:space="preserve">
@@ -288,9 +312,6 @@
   <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
   <data name="tpConfig.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 74</value>
   </data>
@@ -300,8 +321,8 @@
   <data name="lblUsername.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;txtNovaSenha.Name" xml:space="preserve">
+    <value>txtNovaSenha</value>
   </data>
   <data name="lblWelcome.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -315,8 +336,8 @@
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>734, 401</value>
@@ -357,11 +378,14 @@
   <data name="&gt;&gt;btnConfig.Name" xml:space="preserve">
     <value>btnConfig</value>
   </data>
-  <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
-    <value>tpConfig</value>
+  <data name="txtNovaSenha.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;btnCriarTarefa.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblUpdate.Name" xml:space="preserve">
+    <value>lblUpdate</value>
   </data>
   <data name="btnCriarTarefa.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -372,11 +396,11 @@
   <data name="btnDeletar.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 316</value>
   </data>
-  <data name="&gt;&gt;tabControlMain.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Suas tarefas:</value>
   </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
   </data>
   <data name="lblUsername.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -417,9 +441,6 @@
   <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
   <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 15pt</value>
   </data>
@@ -435,20 +456,17 @@
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="txtNovaSenha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>357, 176</value>
+  <data name="txtUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;txtNome.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="btnMinhasTarefas.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="&gt;&gt;txtSenha.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="tpTarefas.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 74</value>
@@ -462,14 +480,14 @@
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 17</value>
   </data>
-  <data name="&gt;&gt;txtSenha.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="dtgTarefas.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
   </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnDeletar.Parent" xml:space="preserve">
-    <value>tpTarefas</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
@@ -479,9 +497,6 @@
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>323, 168</value>
-  </data>
-  <data name="&gt;&gt;txtUsername.Name" xml:space="preserve">
-    <value>txtUsername</value>
   </data>
   <data name="tpMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
@@ -498,8 +513,11 @@
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnConfig.Text" xml:space="preserve">
+    <value>Configurações de Usuário</value>
   </data>
   <data name="&gt;&gt;btnNewTarefa.Name" xml:space="preserve">
     <value>btnNewTarefa</value>
@@ -521,12 +539,6 @@
   </data>
   <data name="lblWelcome.Text" xml:space="preserve">
     <value>Boas vindas {nome}!</value>
-  </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>tpConfig</value>
-  </data>
-  <data name="txtUsername.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;txtEmail.Name" xml:space="preserve">
     <value>txtEmail</value>
@@ -576,11 +588,8 @@
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Menu</value>
-  </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;btnDeletar.Parent" xml:space="preserve">
+    <value>tpTarefas</value>
   </data>
   <data name="&gt;&gt;btnNewTarefa.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -634,16 +643,16 @@
     <value>tabControlMain</value>
   </data>
   <data name="&gt;&gt;btnDeletar.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;label10.Parent" xml:space="preserve">
     <value>tpConfig</value>
   </data>
-  <data name="txtNovaSenha.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="lblUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 78</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 316</value>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>15</value>
@@ -678,6 +687,9 @@
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
+  <data name="&gt;&gt;txtEmail.Parent" xml:space="preserve">
+    <value>tpConfig</value>
+  </data>
   <data name="&gt;&gt;tpMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -699,14 +711,14 @@
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;btnAlterarSenha.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>tpConfig</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -741,8 +753,8 @@
   <data name="&gt;&gt;btnAplicar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtUsername.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 20</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Menu</value>
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -753,6 +765,9 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="txtUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 20</value>
+  </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Nome</value>
   </data>
@@ -760,7 +775,7 @@
     <value>Microsoft Sans Serif, 15pt</value>
   </data>
   <data name="&gt;&gt;dtgTarefas.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="txtNome.Size" type="System.Drawing.Size, System.Drawing">
     <value>225, 20</value>
@@ -771,7 +786,7 @@
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>tpConfig</value>
   </data>
   <data name="&gt;&gt;txtConfirmarNovaSenha.Name" xml:space="preserve">
@@ -801,9 +816,6 @@
   <data name="&gt;&gt;label10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="&gt;&gt;txtEmail.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
@@ -813,7 +825,7 @@
   <data name="&gt;&gt;txtConfirmarNovaSenha.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;tpTarefas.Type" xml:space="preserve">
@@ -858,8 +870,8 @@
   <data name="&gt;&gt;tpConfig.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dtgTarefas.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;tabControlMain.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;label13.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -882,6 +894,9 @@
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="txtNovaSenha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 176</value>
+  </data>
   <data name="label8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
@@ -900,14 +915,17 @@
   <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11pt</value>
   </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 17</value>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>tpMenu</value>
   </data>
   <data name="&gt;&gt;txtUsername.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblUpdate.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="label12.Text" xml:space="preserve">
     <value>Task Manager</value>
@@ -924,14 +942,11 @@
   <data name="tpMenu.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 74</value>
   </data>
-  <data name="&gt;&gt;tabControlMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
-  <data name="&gt;&gt;txtNovaSenha.Name" xml:space="preserve">
-    <value>txtNovaSenha</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tpConfig</value>
   </data>
   <data name="&gt;&gt;lblUsername.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -954,8 +969,8 @@
   <data name="btnAlterarSenha.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;txtSenha.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;lblUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;txtUsername.Parent" xml:space="preserve">
     <value>tpConfig</value>
@@ -1041,6 +1056,9 @@
   <data name="txtNome.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 118</value>
   </data>
+  <data name="&gt;&gt;lblUpdate.Parent" xml:space="preserve">
+    <value>tpTarefas</value>
+  </data>
   <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1053,8 +1071,8 @@
   <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 316</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
