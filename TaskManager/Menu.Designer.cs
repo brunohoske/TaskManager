@@ -47,6 +47,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tpTarefas = new System.Windows.Forms.TabPage();
+            this.lblUpdate = new System.Windows.Forms.Label();
             this.btnNewTarefa = new System.Windows.Forms.Button();
             this.btnDeletar = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
@@ -62,7 +63,6 @@
             this.lblUsername = new System.Windows.Forms.Label();
             this.lblWelcome = new System.Windows.Forms.Label();
             this.tabControlMain = new System.Windows.Forms.TabControl();
-            this.lblUpdate = new System.Windows.Forms.Label();
             this.tpConfig.SuspendLayout();
             this.tpTarefas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgTarefas)).BeginInit();
@@ -188,6 +188,13 @@
             this.tpTarefas.Name = "tpTarefas";
             this.tpTarefas.UseVisualStyleBackColor = true;
             // 
+            // lblUpdate
+            // 
+            resources.ApplyResources(this.lblUpdate, "lblUpdate");
+            this.lblUpdate.ForeColor = System.Drawing.Color.DodgerBlue;
+            this.lblUpdate.Name = "lblUpdate";
+            this.lblUpdate.Click += new System.EventHandler(this.lblUpdate_Click);
+            // 
             // btnNewTarefa
             // 
             resources.ApplyResources(this.btnNewTarefa, "btnNewTarefa");
@@ -291,12 +298,6 @@
             this.tabControlMain.Name = "tabControlMain";
             this.tabControlMain.SelectedIndex = 0;
             this.tabControlMain.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tabControlMain_Selecting);
-            // 
-            // lblUpdate
-            // 
-            resources.ApplyResources(this.lblUpdate, "lblUpdate");
-            this.lblUpdate.Name = "lblUpdate";
-            this.lblUpdate.Click += new System.EventHandler(this.lblUpdate_Click);
             // 
             // Menu
             // 

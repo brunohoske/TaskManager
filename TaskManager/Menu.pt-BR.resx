@@ -144,17 +144,14 @@
   <data name="lblUpdate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblUpdate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Underline</value>
+  </data>
   <data name="lblUpdate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="lblUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>624, 3</value>
-  </data>
   <data name="lblUpdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 13</value>
-  </data>
-  <data name="lblUpdate.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
   </data>
   <data name="lblUpdate.Text" xml:space="preserve">
     <value>Atualizar tarefas</value>
@@ -192,6 +189,15 @@
   <data name="tpTarefas.Text" xml:space="preserve">
     <value>Minhas Tarefas</value>
   </data>
+  <data name="tpMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>712, 360</value>
+  </data>
+  <data name="tpMenu.Text" xml:space="preserve">
+    <value>Menu Principal</value>
+  </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -203,15 +209,6 @@
   </data>
   <data name="label13.Text" xml:space="preserve">
     <value>Sair</value>
-  </data>
-  <data name="tpMenu.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tpMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>712, 360</value>
-  </data>
-  <data name="tpMenu.Text" xml:space="preserve">
-    <value>Menu Principal</value>
   </data>
   <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
     <value>720, 386</value>
